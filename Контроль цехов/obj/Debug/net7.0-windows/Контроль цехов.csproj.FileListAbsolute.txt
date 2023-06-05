@@ -1,0 +1,371 @@
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Контроль цехов.exe
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Контроль цехов.deps.json
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Castle.Core.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.csproj.AssemblyReference.cache
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.csproj.ResolveComReference.cache
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Pages\Autorization.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Pages\HREmployeePage.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Windows\MainWindow.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Windows\MessageBox.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.cache
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.lref
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\App.baml
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Pages\Autorization.baml
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Pages\HREmployeePage.baml
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.baml
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Windows\MainWindow.baml
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Windows\MessageBox.baml
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.g.resources
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfoInputs.cache
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfo.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.csproj.CoreCompileInputs.cache
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.csproj.CopyComplete
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\refint\Контроль цехов.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.g.cs
+C:\Users\Daunello\source\repos\УППО Пропуски\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.baml
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.exe
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.deps.json
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Castle.Core.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Daunello\source\repos\Контроль цехов\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.AssemblyReference.cache
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.ResolveComReference.cache
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.cache
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.lref
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\App.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.g.resources
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfoInputs.cache
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfo.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CoreCompileInputs.cache
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CopyComplete
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\refint\Контроль цехов.dll
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.g.cs
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.baml
+C:\Users\Daunello\source\repos\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.exe
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.deps.json
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Castle.Core.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.AssemblyReference.cache
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.ResolveComReference.cache
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.cache
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.lref
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\App.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.g.resources
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfoInputs.cache
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfo.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CoreCompileInputs.cache
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CopyComplete
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\refint\Контроль цехов.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.exe
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.deps.json
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Castle.Core.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.AssemblyReference.cache
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.ResolveComReference.cache
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.cache
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.lref
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\App.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.baml
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.g.resources
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfoInputs.cache
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfo.cs
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CoreCompileInputs.cache
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CopyComplete
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\refint\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
+C:\Users\Daunello\Desktop\WorkshopControl-main — копия\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.exe
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.deps.json
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Castle.Core.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.AssemblyReference.cache
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.ResolveComReference.cache
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.cache
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.lref
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\App.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.g.resources
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfoInputs.cache
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfo.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CoreCompileInputs.cache
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CopyComplete
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\refint\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.exe
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.deps.json
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Castle.Core.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.AssemblyReference.cache
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.ResolveComReference.cache
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.cache
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов_MarkupCompile.lref
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\App.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\Autorization.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\EmployeeInfoPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\HREmployeePage.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Pages\SecurityEmployeePage.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\UserControls\SecurityEmployeeUserControl.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Windows\MainWindow.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Windows\MessageBox.baml
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.g.resources
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfoInputs.cache
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.AssemblyInfo.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CoreCompileInputs.cache
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.csproj.CopyComplete
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\refint\Контроль цехов.dll
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll

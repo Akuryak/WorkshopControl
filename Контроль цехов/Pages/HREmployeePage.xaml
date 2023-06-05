@@ -1,0 +1,82 @@
+﻿<Page x:Class="УППО_Пропуски.Pages.HREmployeePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:УППО_Пропуски.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" MinHeight="450" d:DesignWidth="800" MinWidth="900"
+      Title="HREmployeePage" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.05*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.05*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.05*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="1" BorderBrush="DarkBlue" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="7" CornerRadius="15"/>
+            
+            <TextBlock Text="Фамилия: " Grid.Row="1"/>
+            <TextBox Template="{DynamicResource MainTextBox}" x:Name="SurnameTextBox" Grid.Column="1" Grid.Row="1"/>
+
+            <TextBlock Text="Имя: " Grid.Row="2"/>
+            <TextBox Template="{DynamicResource MainTextBox}" x:Name="NameTextBox" Grid.Column="1" Grid.Row="2"/>
+
+            <TextBlock Text="Отчество: " Grid.Row="3"/>
+            <TextBox Template="{DynamicResource MainTextBox}" x:Name="PatronomicTextBox" Grid.Column="1" Grid.Row="3"/>
+
+            <TextBlock Text="Пол: " Grid.Row="4"/>
+            <ComboBox Style="{DynamicResource MainComboBox}" x:Name="GenderComboBox" Grid.Column="1" Grid.Row="4">
+                <ComboBoxItem Content="М"/>
+                <ComboBoxItem Content="Ж"/>
+            </ComboBox>
+            
+            <TextBlock Text="Дата рождения: " Grid.Row="5"/>
+            <DatePicker Style="{DynamicResource MainDatePicker}" x:Name="EmployeeBirthdateDatePicker" Grid.Row="5" Grid.Column="1"/>
+
+            <TextBlock Text="Цех: " Grid.Row="6"/>
+            <ComboBox Style="{DynamicResource MainComboBox}" x:Name="WorkshopComboBox" Grid.Column="1" Grid.Row="6">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Path=Name}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <Grid Background="Transparent" Grid.Row="7" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Style="{DynamicResource MainButton}" x:Name="AcceptButton" Content="Добавить работника" Click="AcceptButton_Click"/>
+                <Button Style="{DynamicResource MainButton}" x:Name="CancelButton" Content="Отмена" Grid.Column="1" Click="CancelButton_Click"/>
+            </Grid>
+
+            <Button Style="{DynamicResource MainButton}" x:Name="QuitButton" Content="Выйти из системы" Grid.Column="2" Grid.Row="1" Foreground="Red" Click="QuitButton_Click"/>
+
+            <Image x:Name="UserPhotoImage" Source="../Assets/Images/PlaceholderImageMale.jpg" Grid.Column="2" Grid.Row="2" Grid.RowSpan="4" Margin="15"/>
+            <Button Style="{DynamicResource MainButton}" x:Name="UploadPhotoButton" Content="Загрузить фото" Grid.Column="2" Grid.Row="6" Click="UploadPhotoButton_Click"/>
+        </Grid>
+    </Grid>
+</Page>

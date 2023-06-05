@@ -1,0 +1,20 @@
+﻿Контроль цехов
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\
+УППО_Пропуски
+none
+false
+TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\App.xaml
+10-1790569357
+
+2393176517
+217556741208
+Pages\Autorization.xaml;Pages\EmployeeInfoPage.xaml;Pages\ForemanPage.xaml;Pages\HRChooseActionPage.xaml;Pages\HREmployeePage.xaml;Pages\SecurityEmployeePage.xaml;UserControls\ForemanUserControl.xaml;UserControls\SecurityEmployeeUserControl.xaml;Windows\MainWindow.xaml;Windows\MessageBox.xaml;
+
+False
+
