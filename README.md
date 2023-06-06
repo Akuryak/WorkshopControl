@@ -23,4 +23,4 @@ VisualStudio2022;
 
 ## Автор
 
-Мусифуллин Тимур - [PurpleBooth](https://github.com/Akuryak).
+Мусифуллин Тимур - [Akurayak](https://github.com/Akuryak).
