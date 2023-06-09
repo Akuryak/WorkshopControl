@@ -304,6 +304,8 @@ C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль це
 C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.g.cs
 C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\Pages\ForemanPage.baml
 C:\Users\Daunello\Desktop\WorkshopControl урезаный\Контроль цехов\obj\Debug\net7.0-windows\UserControls\ForemanUserControl.baml
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.baml
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.exe
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.deps.json
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\bin\Debug\net7.0-windows\Контроль цехов.runtimeconfig.json
@@ -369,5 +371,3 @@ C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
-C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.g.cs
-C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.baml

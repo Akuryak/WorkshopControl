@@ -6,16 +6,38 @@
             xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     
     <Application.Resources>
+        
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="TextWrapping" Value="Wrap"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
         </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Foreground" Value="#FFE9F7FF"/>
+        </Style>
+
         <Style TargetType="TextBox">
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="White"/>
         </Style>
+        
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#FFE9F7FF"/>
+        </Style>
+
         <Style x:Key="FocusVisual2">
             <Setter Property="Control.Template">
                 <Setter.Value>
@@ -26,17 +48,17 @@
             </Setter>
         </Style>
         <LinearGradientBrush x:Key="TabItem.Static.Background" EndPoint="0,1" StartPoint="0,0">
-            <GradientStop Color="AliceBlue" Offset="0.0"/>
-            <GradientStop Color="AliceBlue" Offset="1.0"/>
+            <GradientStop Color="#FFCBCDFB" Offset="0.0"/>
+            <GradientStop Color="#FFCBCDFB" Offset="1.0"/>
         </LinearGradientBrush>
-        <SolidColorBrush x:Key="TabItem.Static.Border" Color="DarkBlue"/>
+        <SolidColorBrush x:Key="TabItem.Static.Border" Color="#FFCBCDFB"/>
         <LinearGradientBrush x:Key="TabItem.MouseOver.Background" EndPoint="0,1" StartPoint="0,0">
-            <GradientStop Color="#ECF4FC" Offset="0.0"/>
-            <GradientStop Color="#DCECFC" Offset="1.0"/>
+            <GradientStop Color="#FFCBCDFB" Offset="0.0"/>
+            <GradientStop Color="#FFCBCDFB" Offset="1.0"/>
         </LinearGradientBrush>
         <SolidColorBrush x:Key="TabItem.MouseOver.Border" Color="#7EB4EA"/>
-        <SolidColorBrush x:Key="TabItem.Selected.Background" Color="#FFCDDCFF"/>
-        <SolidColorBrush x:Key="TabItem.Selected.Border" Color="#FF569DE5"/>
+        <SolidColorBrush x:Key="TabItem.Selected.Background" Color="#FF9EA1E6"/>
+        <SolidColorBrush x:Key="TabItem.Selected.Border" Color="#FF9EA1E6"/>
         <SolidColorBrush x:Key="TabItem.Disabled.Background" Color="#F0F0F0"/>
         <SolidColorBrush x:Key="TabItem.Disabled.Border" Color="#D9D9D9"/>
         <Style x:Key="MainTabItem" TargetType="{x:Type TabItem}">
@@ -223,14 +245,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        
-        <Style TargetType="PasswordBox">
-            <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Margin" Value="5"/>
-        </Style>
-        <Style TargetType="Grid">
-            <Setter Property="Background" Value="#FFE9F7FF"/>
-        </Style>
 
         <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA"/>
         <SolidColorBrush x:Key="TextBox.Focus.Border" Color="#FF569DE5"/>
@@ -244,16 +258,16 @@
             </Setter>
         </Style>
 
-        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFADB0E6"/>
-        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF7078FF"/>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FF9EA1E6"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF9EA1E6"/>
         <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
         <Style x:Key="MainDatePicker" TargetType="{x:Type DatePicker}">
-            <Setter Property="Foreground" Value="#FF333333"/>
+            <Setter Property="Foreground" Value="#FFE9F7FF"/>
             <Setter Property="IsTodayHighlighted" Value="True"/>
             <Setter Property="SelectedDateFormat" Value="Short"/>
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Padding" Value="2"/>
-            <Setter Property="BorderBrush" Value="#FF569DE5"/>
+            <Setter Property="BorderBrush" Value="#FFADB0E6"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
@@ -404,8 +418,8 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        
-        <SolidColorBrush x:Key="TextBox.Static.Background" Color="#FFFFFFFF"/>
+
+        <SolidColorBrush x:Key="TextBox.Static.Background" Color="#FFCBCDFB"/>
         <Style x:Key="ComboBoxEditableTextBox" TargetType="{x:Type TextBox}">
             <Setter Property="OverridesDefaultStyle" Value="true"/>
             <Setter Property="AllowDrop" Value="true"/>
@@ -424,13 +438,13 @@
         </Style>
         
         <LinearGradientBrush x:Key="ComboBox.Static.Background" EndPoint="0,1" StartPoint="0,0">
-            <GradientStop Color="#FFCDDCFF" Offset="0.0"/>
-            <GradientStop Color="#FFCDDCFF" Offset="1.0"/>
+            <GradientStop Color="#FFCBCDFB" Offset="0.0"/>
+            <GradientStop Color="#FFCBCDFB" Offset="1.0"/>
         </LinearGradientBrush>
-        <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#FF569DE5"/>
+        <SolidColorBrush x:Key="ComboBox.Static.Border" Color="#FFCBCDFB"/>
         <SolidColorBrush x:Key="ComboBox.Static.Glyph" Color="#FF606060"/>
-        <SolidColorBrush x:Key="ComboBox.Static.Editable.Background" Color="#FFFFFFFF"/>
-        <SolidColorBrush x:Key="ComboBox.Static.Editable.Border" Color="#FFABADB3"/>
+        <SolidColorBrush x:Key="ComboBox.Static.Editable.Background" Color="#FFCBCDFB"/>
+        <SolidColorBrush x:Key="ComboBox.Static.Editable.Border" Color="#FFCBCDFB"/>
         <SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Background" Color="Transparent"/>
         <SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Border" Color="Transparent"/>
         <LinearGradientBrush x:Key="ComboBox.MouseOver.Background" EndPoint="0,1" StartPoint="0,0">
@@ -569,7 +583,7 @@
                 </Grid.ColumnDefinitions>
                 <Popup x:Name="PART_Popup" AllowsTransparency="true" Grid.ColumnSpan="2" IsOpen="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}" Placement="Bottom" PopupAnimation="{DynamicResource {x:Static SystemParameters.ComboBoxPopupAnimationKey}}">
                     <theme:SystemDropShadowChrome x:Name="shadow" Color="Transparent" MinWidth="{Binding ActualWidth, ElementName=templateRoot}" MaxHeight="{TemplateBinding MaxDropDownHeight}">
-                        <Border x:Name="dropDownBorder" Background="#FFCDDCFF" BorderBrush="#FF569DE5" BorderThickness="1" CornerRadius="15">
+                        <Border x:Name="dropDownBorder" Background="#FFCBCDFB" BorderBrush="#FFCBCDFB" BorderThickness="1" CornerRadius="15">
                             <ScrollViewer x:Name="DropDownScrollViewer">
                                 <Grid x:Name="grid" RenderOptions.ClearTypeHint="Enabled">
                                     <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="0" VerticalAlignment="Top" Width="0">
@@ -582,7 +596,7 @@
                     </theme:SystemDropShadowChrome>
                 </Popup>
                 <ToggleButton x:Name="toggleButton" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Grid.ColumnSpan="2" IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Style="{StaticResource ComboBoxToggleButton}"/>
-                <Border x:Name="border" Background="#FFCDDCFF" Margin="{TemplateBinding BorderThickness}" CornerRadius="15">
+                <Border x:Name="border" Background="#FFCBCDFB" Margin="{TemplateBinding BorderThickness}" CornerRadius="15">
                     <TextBox x:Name="PART_EditableTextBox" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" IsReadOnly="{Binding IsReadOnly, RelativeSource={RelativeSource TemplatedParent}}" Margin="{TemplateBinding Padding}" Style="{StaticResource ComboBoxEditableTextBox}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
                 </Border>
             </Grid>
@@ -591,7 +605,7 @@
                     <Setter Property="Opacity" TargetName="border" Value="0.56"/>
                 </Trigger>
                 <Trigger Property="IsKeyboardFocusWithin" Value="true">
-                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="Foreground" Value="#FFE9F7FF"/>
                 </Trigger>
                 <Trigger Property="HasDropShadow" SourceName="PART_Popup" Value="true">
                     <Setter Property="Margin" TargetName="shadow" Value="0,0,5,5"/>
@@ -613,6 +627,7 @@
                 </Trigger>
             </ControlTemplate.Triggers>
         </ControlTemplate>
+        
         <ControlTemplate x:Key="ComboBoxTemplate" TargetType="{x:Type ComboBox}">
             <Grid x:Name="templateRoot" SnapsToDevicePixels="true">
                 <Grid.ColumnDefinitions>
@@ -621,7 +636,7 @@
                 </Grid.ColumnDefinitions>
                 <Popup x:Name="PART_Popup" AllowsTransparency="true" Grid.ColumnSpan="2" IsOpen="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Margin="1" Placement="Bottom" PopupAnimation="{DynamicResource {x:Static SystemParameters.ComboBoxPopupAnimationKey}}">
                     <theme:SystemDropShadowChrome x:Name="shadow" Color="Transparent" MinWidth="{Binding ActualWidth, ElementName=templateRoot}" MaxHeight="{TemplateBinding MaxDropDownHeight}">
-                        <Border x:Name="dropDownBorder" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}" BorderThickness="1">
+                        <Border x:Name="dropDownBorder" Background="#FFCBCDFB" BorderBrush="#FFCBCDFB" BorderThickness="1" CornerRadius="15">
                             <ScrollViewer x:Name="DropDownScrollViewer">
                                 <Grid x:Name="grid" RenderOptions.ClearTypeHint="Enabled">
                                     <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="0" VerticalAlignment="Top" Width="0">
@@ -660,9 +675,9 @@
         
         <Style x:Key="MainComboBox" TargetType="{x:Type ComboBox}">
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual1}"/>
-            <Setter Property="Background" Value="#FFCDDCFF"/>
-            <Setter Property="BorderBrush" Value="#FF7078FF"/>
-            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}"/>
+            <Setter Property="Background" Value="#FFCBCDFB"/>
+            <Setter Property="BorderBrush" Value="#FFCBCDFB"/>
+            <Setter Property="Foreground" Value="#FFE9F7FF"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
             <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
@@ -690,7 +705,7 @@
             <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
             <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
             <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
-            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="Foreground" Value="#FFE9F7FF"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>

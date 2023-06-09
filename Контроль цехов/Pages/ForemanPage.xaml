@@ -21,24 +21,22 @@
         </Grid.RowDefinitions>
         <Grid Grid.Column="1" Grid.Row="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
+                <RowDefinition Height="50"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <Button Style="{DynamicResource MainButton}" x:Name="SendRequestButton" Content="Отправить служебный запрос" Click="SendRequestButton_Click"/>
 
-            <Button Style="{DynamicResource MainButton}" BorderBrush="Red" Background="#FFFF8787" HorizontalAlignment="Right" x:Name="QuitButton" ToolTip="Выйти из системы" Click="QuitButton_Click" Grid.Column="1">
-                <Image Source="../Assets/Button Icons/exit.png" Margin="5" MaxWidth="30"/>
-            </Button>
-
-            <TabControl x:Name="TabControlMain" Grid.Row="1" Grid.ColumnSpan="2">
-                <TabItem Style="{DynamicResource MainTabItem}" Header="Список сотрудников (в виде таблицы)">
-                        <DataGrid x:Name="EmployeesDataGrid" AutoGenerateColumns="False" IsReadOnly="True" AlternationCount="1" Background="#FFD3D9FF" AlternatingRowBackground="#FFA8B5FF">
+            <TabControl x:Name="TabControlMain" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <TabItem Style="{DynamicResource MainTabItem}">
+                    <TabItem.Header>
+                        <Image Source="../Assets/Button Icons/table-icon.png" Width="40" ToolTip="В виде таблицы"/>
+                    </TabItem.Header>
+                    <DataGrid x:Name="EmployeesDataGrid" AutoGenerateColumns="False" IsReadOnly="True" AlternationCount="1" Background="#FFD3D9FF" AlternatingRowBackground="#FFECEFFF" GridLinesVisibility="Horizontal" HorizontalGridLinesBrush="#FF80ABFF" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False">
                             <DataGrid.Columns>
-                                <DataGridTextColumn Header="Фамилия" FontSize="20" Width="auto" Binding="{Binding Path=Surname}"/>
+                            <DataGridTextColumn Header="Фамилия" FontSize="20" Width="auto" Binding="{Binding Path=Surname}"/>
                                 <DataGridTextColumn Header="Имя" FontSize="20" Width="auto" Binding="{Binding Path=Name}"/>
                                 <DataGridTextColumn Header="Отчество" FontSize="20" Width="auto" Binding="{Binding Path=Patronomic}"/>
                                 <DataGridTextColumn Header="Пол" FontSize="20" Width="auto" Binding="{Binding Path=Gender}"/>
@@ -50,10 +48,25 @@
                             </DataGrid.Columns>
                         </DataGrid>
                 </TabItem>
-                <TabItem Style="{DynamicResource MainTabItem}" Header="Список сотрудников (в виде списка)">
+                <TabItem Style="{DynamicResource MainTabItem}">
+                    <TabItem.Header>
+                        <Image ToolTip="В виде списка" Source="../Assets/Button Icons/list-icon.png" Width="40"/>
+                    </TabItem.Header>
                     <ListBox x:Name="EmployeesListBox" BorderBrush="DarkBlue" HorizontalContentAlignment="Stretch"/>
                 </TabItem>
             </TabControl>
+
+            <TextBox Template="{DynamicResource MainTextBox}" x:Name="SearchTextBox" Grid.Row="0" VerticalAlignment="Top" Margin="110,10,60,0" TextChanged="SearchTextBox_TextChanged" GotFocus="SearchTextBlock_GotFocus" LostFocus="SearchTextBlock_LostFocus"/>
+            <TextBlock x:Name="SearchTextBlock" Text="Введите текст чтобы найти сотрудника..." VerticalAlignment="Top" HorizontalAlignment="Left" Margin="130,10,50,0" Foreground="#FFE9F7FF" MouseLeftButtonUp="SearchTextBlock_MouseLeftButtonUp"/>
+
+            <Button Style="{DynamicResource MainButton}" x:Name="SendRequestButton" Foreground="#FFE9F7FF" ToolTip="Отправить служебный запрос" HorizontalAlignment="Right" Click="SendRequestButton_Click">
+                <Image Source="../Assets/Button Icons/send-document.png" Width="40" Height="40"/>
+            </Button>
+
+            <Button Style="{DynamicResource MainButton}" BorderBrush="Red" Background="#FFFF8787" HorizontalAlignment="Right" x:Name="QuitButton" ToolTip="Выйти из системы" Click="QuitButton_Click" Grid.Column="1">
+                <Image Source="../Assets/Button Icons/exit.png" Margin="5" Width="40"/>
+            </Button>
+
         </Grid>
     </Grid>
 </Page>

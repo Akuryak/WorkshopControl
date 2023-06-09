@@ -166,5 +166,36 @@ namespace УППО_Пропуски.Pages
                     Windows.MessageBox.Show("Уведомление", "Выберите сотрудника");
             }
         }
+
+        private void SearchTextBlock_GotFocus(object sender, RoutedEventArgs e)
+        {
+            SearchTextBlock.Visibility = Visibility.Hidden;
+        }
+
+        private void SearchTextBlock_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(SearchTextBox.Text))
+                SearchTextBlock.Visibility = Visibility.Visible;
+        }
+
+        private void SearchTextBlock_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            SearchTextBox.Focus();
+        }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            List<Employee> employees = App.Context.Employees.ToList();
+
+            if (!string.IsNullOrWhiteSpace(SearchTextBox.Text))
+                employees = employees.Where(x => $"{x.Surname} {x.Name} {x.Patronomic}".Contains(SearchTextBox.Text)).ToList();
+
+            EmployeesDataGrid.ItemsSource = employees;
+            EmployeesListBox.Items.Clear();
+            foreach (Employee employee in employees)
+            {
+                EmployeesListBox.Items.Add(new UserControls.ForemanUserControl(employee));
+            }
+        }
     }
 }

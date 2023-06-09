@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:УППО_Пропуски.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="200" MinHeight="200" d:DesignWidth="400" MinWidth="400"
       Title="HRChooseActionPage">
 
     <Grid>
@@ -25,8 +25,8 @@
                 <RowDefinition/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <Button Style="{DynamicResource MainButton}" x:Name="MakeRequestButton" Content="Создать список сотрудников" Click="MakeRequestButton_Click"/>
-            <Button Style="{DynamicResource MainButton}" x:Name="AddNewEmployeeButton" Content="Добавить сотрудника" Grid.Row="1" Click="AddNewEmployeeButton_Click"/>
+            <Button Style="{DynamicResource MainButton}" x:Name="MakeRequestButton" Content="Создать список сотрудников" Foreground="#FFE9F7FF" Click="MakeRequestButton_Click"/>
+            <Button Style="{DynamicResource MainButton}" x:Name="AddNewEmployeeButton" Content="Добавить сотрудника" Foreground="#FFE9F7FF" Grid.Row="1" Click="AddNewEmployeeButton_Click"/>
             <Button Style="{DynamicResource MainButton}" x:Name="QuitButton" Content="Выйти из системы" Grid.Column="1" Foreground="Red" Click="QuitButton_Click" Grid.Row="2"/>
         </Grid>
     </Grid>

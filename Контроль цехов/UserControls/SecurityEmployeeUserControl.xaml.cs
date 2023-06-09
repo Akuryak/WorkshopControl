@@ -27,9 +27,9 @@ namespace УППО_Пропуски.UserControls
             InitializeComponent();
             Employee = employee;
 
-            FullNameTextBlock.Text = "Полное имя: " + $"{employee.Surname} {employee.Name} {employee.Patronomic}";
-            GenderTextBlock.Text = "Пол: " + employee.Gender;
-            BirthdateTextBlock.Text = "Дата рождения: " + employee.Birthdate.ToShortDateString();
+            FullNameTextBlock.Text = $"{employee.Surname} {employee.Name} {employee.Patronomic}";
+            GenderTextBlock.Text = employee.Gender == "М" ? "Мужчина" : "Женщина";
+            BirthdateTextBlock.Text = employee.Birthdate.ToShortDateString() + " года рождения.";
             PasswordTextBox.Text = employee.Password;
             StatusTextBox.Text = employee.Status;
             CanVisitOtherWorkshops.IsChecked = employee.CanVisitOtherWorkshops == 0 ? false : true;
@@ -121,6 +121,11 @@ namespace УППО_Пропуски.UserControls
             }
             CanVisitOtherWorkshops.BorderBrush = Brushes.Green;
             App.Context.SaveChanges();
+        }
+
+        private void PasswordTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

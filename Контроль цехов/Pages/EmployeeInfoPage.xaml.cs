@@ -41,6 +41,12 @@ namespace УППО_Пропуски.Pages
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            if (Employee.Status.Contains("Уволен"))
+            {
+                MessageBox.Show("Вы были уволены и не можете пользоваться системой", "Уведомление");
+                App.Current.Windows.OfType<MainWindow>().FirstOrDefault().Close();
+            }
+
             NameTextBlock.Text = $"{Employee.Surname} {Employee.Name} {Employee.Patronomic}";
             GenderTextBlock.Text = Employee.Gender == "М" ? "Мужчина" : "Женщина";
             BirthdateTextBlock.Text = Employee.Birthdate.ToShortDateString();

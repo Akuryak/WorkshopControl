@@ -12,6 +12,9 @@
     <None Remove="Assets\Button Icons\AddEmployee.png" />
     <None Remove="Assets\Button Icons\cancel-button.png" />
     <None Remove="Assets\Button Icons\exit.png" />
+    <None Remove="Assets\Button Icons\list-icon.png" />
+    <None Remove="Assets\Button Icons\send-document.png" />
+    <None Remove="Assets\Button Icons\table-icon.png" />
     <None Remove="Assets\Images\123.png" />
     <None Remove="Assets\Images\CompanyLogo.ico" />
     <None Remove="Assets\Images\CompanyLogo.jpg" />
@@ -53,6 +56,9 @@
     <Resource Include="Assets\Button Icons\AddEmployee.png" />
     <Resource Include="Assets\Button Icons\cancel-button.png" />
     <Resource Include="Assets\Button Icons\exit.png" />
+    <Resource Include="Assets\Button Icons\list-icon.png" />
+    <Resource Include="Assets\Button Icons\send-document.png" />
+    <Resource Include="Assets\Button Icons\table-icon.png" />
     <Resource Include="Assets\Images\CompanyLogo.ico" />
     <Resource Include="Assets\Images\CompanyLogo.jpg" />
     <Resource Include="Assets\Images\PlaceholderImageMale.jpg" />

@@ -25,18 +25,18 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
+                <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <TextBlock Text="Авторизация" TextAlignment="Center" Grid.ColumnSpan="2" FontWeight="DemiBold"/>
+            <TextBlock Text="Авторизация" TextAlignment="Center" Grid.ColumnSpan="2" FontWeight="DemiBold" Foreground="#FF5C62E6"/>
 
-            <TextBox Template="{DynamicResource MainTextBox}" x:Name="EmployeeCodeTextBox" MaxLength="9" Grid.ColumnSpan="2" Grid.Row="1" Foreground="#FFE9F7FF"/>
-            <TextBlock Text="Код сотрудника: " Grid.Row="1" Grid.ColumnSpan="1" Foreground="White" Margin="15"/>
+            <TextBox Template="{DynamicResource MainTextBox}" x:Name="EmployeeCodeTextBox" MaxLength="9" Grid.ColumnSpan="2" Grid.Row="1" GotFocus="EmployeeCodeTextBox_GotFocus" LostFocus="EmployeeCodeTextBox_LostFocus"/>
+            <TextBlock x:Name="EmployeeCodeTextBlock" Text="Код сотрудника" Grid.Row="1" HorizontalAlignment="Left" Foreground="#FFE9F7FF" Margin="15"/>
 
-            <PasswordBox Template="{DynamicResource MainPasswordBox}" x:Name="EmployeePasswordPasswordBox" MaxLength="45" Grid.ColumnSpan="2" Grid.Row="2" KeyDown="EmployeePasswordPasswordBox_KeyDown"/>
-            <TextBlock Text="Пароль: " Grid.Row="2" Grid.ColumnSpan="2" Margin="15" Foreground="#FFE9F7FF"/>
+            <PasswordBox Template="{DynamicResource MainPasswordBox}" x:Name="EmployeePasswordPasswordBox" MaxLength="45" Grid.ColumnSpan="2" Grid.Row="2" KeyDown="EmployeePasswordPasswordBox_KeyDown" GotFocus="EmployeePasswordPasswordBox_GotFocus" LostFocus="EmployeePasswordPasswordBox_LostFocus"/>
+            <TextBlock x:Name="EmployeePasswordTextBlock" Text="Пароль" Grid.Row="2" HorizontalAlignment="Left" Margin="15" Foreground="#FFE9F7FF"/>
 
             <Button Style="{DynamicResource MainButton}" x:Name="LoginButton" Content="Войти" Grid.Row="3" Grid.ColumnSpan="2" Click="LoginButton_Click"/>
         </Grid>

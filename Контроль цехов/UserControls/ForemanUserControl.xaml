@@ -6,18 +6,8 @@
              xmlns:local="clr-namespace:УППО_Пропуски.UserControls"
              mc:Ignorable="d" 
              Height="auto" Width="auto">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.05*"/>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="0.05*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0.05*"/>
-            <RowDefinition/>
-            <RowDefinition Height="0.05*"/>
-        </Grid.RowDefinitions>
-        <Border Grid.Row="1" Grid.Column="1" BorderBrush="DarkBlue" BorderThickness="1">
+
+    <Border BorderBrush="#FF6363C1" BorderThickness="2" CornerRadius="0">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
@@ -28,29 +18,29 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Image x:Name="UserPhotoImage" Source="../Assets/Images/PlaceholderImageMale.jpg" MaxHeight="200" Margin="5" Grid.RowSpan="5"/>
-
-                <Grid Grid.Column="1">
+            <Image x:Name="UserPhotoImage" Source="../Assets/Images/PlaceholderImageMale.jpg" MaxHeight="200" Margin="15" Grid.RowSpan="4"/>
+            <Grid Grid.Column="1" Margin="10,10,0,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
-                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Полное имя: " x:Name="FullNameTextBlock" Grid.Column="0"/>
+                    <TextBlock Text="Полное имя: " x:Name="FullNameTextBlock" Grid.Column="0" FontWeight="DemiBold"/>
                     <TextBlock Text="Пол: " x:Name="GenderTextBlock" Grid.Column="1"/>
-                    <TextBlock Text="Дата рождения: " x:Name="BirthdateTextBlock" Grid.Column="2"/>
                 </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock x:Name="DivisionTextBlock" Text="Подразделение: " Grid.Row="1" Grid.Column="0"/>
-                    <TextBlock x:Name="StatusTextBlock" Text="Статус: " Grid.Row="1" Grid.Column="2"/>
+            <Grid Grid.Column="1" Grid.Row="1" Margin="10,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Дата рождения: " x:Name="BirthdateTextBlock" Grid.Row="0"/>
+
+                    <TextBlock x:Name="DivisionTextBlock" Text="Подразделение: " Grid.Row="1"/>
+                    <TextBlock x:Name="StatusTextBlock" Text="Статус: " Grid.Row="2"/>
                 </Grid>
 
-                <Grid Grid.Column="1" Grid.Row="3">
+                <Grid Grid.Column="1" Grid.Row="3" Margin="10,0,10,10">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition/>
@@ -71,7 +61,8 @@
                         </CheckBox.LayoutTransform>
                     </CheckBox>
                 </Grid>
+            <Border BorderBrush="#FFA5A5FF" BorderThickness="2" Grid.Column="0" Grid.RowSpan="4" Margin="10" CornerRadius="0"/>
+            <Border BorderBrush="#FFA5A5FF" BorderThickness="2" Grid.Column="1" Grid.RowSpan="4" Margin="10" CornerRadius="0"/>
             </Grid>
         </Border>
-    </Grid>
 </UserControl>

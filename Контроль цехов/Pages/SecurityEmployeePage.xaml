@@ -21,14 +21,17 @@
         </Grid.RowDefinitions>
         <Grid Grid.Column="1" Grid.Row="1">
                 <TabControl>
-                    <TabItem Style="{DynamicResource MainTabItem}" Header="Мандаты доступа (в виде таблицы)">
+                <TabItem Style="{DynamicResource MainTabItem}">
+                    <TabItem.Header>
+                        <Image ToolTip="В виде таблицы" Source="../Assets/Button Icons/table-icon.png" Width="40"/>
+                    </TabItem.Header>
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="auto"/>
                             </Grid.ColumnDefinitions>
                             <Grid Grid.Column="0">
-                                <DataGrid x:Name="EmployeesDataGrid" AutoGenerateColumns="False" IsReadOnly="True" AlternationCount="1" Background="#FFD3D9FF" AlternatingRowBackground="#FFA8B5FF" SelectionChanged="EmployeesDataGrid_SelectionChanged">
+                            <DataGrid x:Name="EmployeesDataGrid" AutoGenerateColumns="False" AlternationCount="1" Background="#FFD3D9FF" AlternatingRowBackground="#FFECEFFF" GridLinesVisibility="Horizontal" HorizontalGridLinesBrush="#FF80ABFF" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False" SelectionChanged="EmployeesDataGrid_SelectionChanged">
                                     <DataGrid.Columns>
                                         <DataGridTextColumn Header="Фамилия" FontSize="20" Width="auto" Binding="{Binding Path=Surname}"/>
                                     <DataGridTextColumn Header="Имя" FontSize="20" Width="auto" Binding="{Binding Path=Name}"/>
@@ -51,7 +54,6 @@
                                     <RowDefinition/>
                                     <RowDefinition/>
                                     <RowDefinition Height="auto"/>
-                                    <RowDefinition Height="auto"/>
                                 </Grid.RowDefinitions>
                             <Border BorderBrush="DarkBlue" BorderThickness="1" Grid.ColumnSpan="10" Grid.RowSpan="10"/>
 
@@ -66,7 +68,7 @@
                             <TextBox Template="{DynamicResource MainTextBox}" x:Name="PasswordEmployeeTextBox" MaxLength="45" Grid.Row="1" Grid.Column="1"/>
 
                             <TextBlock Text="Подразделение: " Grid.Row="2"/>
-                            <ComboBox Template="{DynamicResource ComboBoxTemplate}" x:Name="DivisionEmployeeComboBox" Grid.Column="1" Grid.Row="2">
+                            <ComboBox Template="{DynamicResource ComboBoxTemplate}" x:Name="DivisionEmployeeComboBox" Foreground="#FFE9F7FF" Grid.Column="1" Grid.Row="2">
                                 <ComboBox.ItemTemplate>
                                     <DataTemplate>
                                         <TextBlock Text="{Binding Path=Name}"/>
@@ -77,16 +79,35 @@
                             <TextBlock Text="Статус: " Grid.Row="3"/>
                             <TextBox Template="{DynamicResource MainTextBox}" x:Name="StatusEmployeeTextBox" MaxLength="45" Grid.Row="3" Grid.Column="1"/>
 
-                            <Button Style="{DynamicResource MainButton}" x:Name="SaveChangesButton" Content="Одобрить/Сохранить" Grid.ColumnSpan="2" Grid.Row="4" Click="SaveChangesButton_Click"/>
-                            <Button Style="{DynamicResource MainButton}" x:Name="CancelChangesButton" Content="Отменить" Grid.ColumnSpan="2" Grid.Row="5" Click="CancelChangesButton_Click"/>
+                            <Grid Grid.Row="4" Grid.ColumnSpan="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Button Style="{DynamicResource MainButton}" x:Name="SaveChangesButton" ToolTip="Одобрить/Сохранить" Click="SaveChangesButton_Click">
+                                    <Image Source="../Assets/Button Icons/AddEmployee.png" Width="50"/>
+                                </Button>
+                                <Button Style="{DynamicResource MainButton}" x:Name="CancelChangesButton" ToolTip="Отменить" Click="CancelChangesButton_Click" Grid.Column="1">
+                                    <Image Source="../Assets/Button Icons/cancel-button.png" Width="50"/>
+                                </Button>
+                            </Grid>
                             </Grid>
                         </Grid>
                     </TabItem>
-                <TabItem Style="{DynamicResource MainTabItem}" Header="Мандаты доступа (в виде списка)">
+                <TabItem Style="{DynamicResource MainTabItem}">
+                    <TabItem.Header>
+                        <Image ToolTip="В виде списка" Source="../Assets/Button Icons/list-icon.png" Width="40"/>
+                    </TabItem.Header>
                     <ListBox x:Name="EmployeesListBox" BorderBrush="DarkBlue" HorizontalContentAlignment="Stretch"/>
                 </TabItem>
                 </TabControl>
-                <Button Style="{DynamicResource MainButton}" x:Name="QuitButton" Content="Выйти из системы" Foreground="Red" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Top" Click="QuitButton_Click"/>
-            </Grid>
+
+            <TextBox Template="{DynamicResource MainTextBox}" x:Name="SearchTextBox" Grid.Row="0" VerticalAlignment="Top" Margin="110,10,50,0" TextChanged="SearchTextBox_TextChanged" GotFocus="SearchTextBlock_GotFocus" LostFocus="SearchTextBlock_LostFocus"/>
+            <TextBlock x:Name="SearchTextBlock" Text="Введите текст чтобы найти сотрудника..." VerticalAlignment="Top" HorizontalAlignment="Left" Margin="130,10,50,0" Foreground="#FFE9F7FF" MouseLeftButtonUp="SearchTextBlock_MouseLeftButtonUp"/>
+
+            <Button Style="{DynamicResource MainButton}" BorderBrush="Red" Background="#FFFF8787" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0" x:Name="QuitButton" ToolTip="Выйти из системы" Click="QuitButton_Click">
+                <Image Source="../Assets/Button Icons/exit.png" Margin="5" MaxWidth="30"/>
+            </Button>
+        </Grid>
     </Grid>
 </Page>

@@ -27,11 +27,11 @@ namespace УППО_Пропуски.UserControls
 
             DataContext = employee;
 
-            FullNameTextBlock.Text += $"{employee.Surname} {employee.Name} {employee.Patronomic}";
-            GenderTextBlock.Text += employee.Gender;
-            BirthdateTextBlock.Text += employee.Birthdate.ToShortDateString();
-            DivisionTextBlock.Text += employee.SubdivisionNavigation == null ? "-" : employee.SubdivisionNavigation.Name;
-            StatusTextBlock.Text += employee.Status;
+            FullNameTextBlock.Text = $"{employee.Surname} {employee.Name} {employee.Patronomic}";
+            GenderTextBlock.Text = employee.Gender == "М" ? "Мужчина" : "Женщина";
+            BirthdateTextBlock.Text = employee.Birthdate.ToShortDateString() + " года рождения.";
+            DivisionTextBlock.Text = employee.SubdivisionNavigation == null ? "Нет подразделения" : employee.SubdivisionNavigation.Name;
+            StatusTextBlock.Text = employee.Status;
             CanVisitOtherWorkshopsCheckBox.IsChecked = employee.CanVisitOtherWorkshops == 1 ? true : false;
             IsVerificatedCheckBox.IsChecked = employee.IsVerificated == 1 ? true : false;
 

@@ -106,5 +106,27 @@ namespace УППО_Пропуски.Pages
                 Login();
             }
         }
+
+        private void EmployeeCodeTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            EmployeeCodeTextBlock.Visibility = Visibility.Hidden;
+        }
+
+        private void EmployeeCodeTextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(EmployeeCodeTextBox.Text))
+                EmployeeCodeTextBlock.Visibility = Visibility.Visible;
+        }
+
+        private void EmployeePasswordPasswordBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            EmployeePasswordTextBlock.Visibility = Visibility.Hidden;
+        }
+
+        private void EmployeePasswordPasswordBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(EmployeeCodeTextBox.Text))
+                EmployeePasswordTextBlock.Visibility = Visibility.Visible;
+        }
     }
 }
