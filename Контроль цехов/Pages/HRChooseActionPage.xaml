@@ -25,7 +25,7 @@
                 <RowDefinition/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <Button Style="{DynamicResource MainButton}" x:Name="MakeRequestButton" Content="Создать свод по сотрудникам" Click="MakeRequestButton_Click"/>
+            <Button Style="{DynamicResource MainButton}" x:Name="MakeRequestButton" Content="Создать список сотрудников" Click="MakeRequestButton_Click"/>
             <Button Style="{DynamicResource MainButton}" x:Name="AddNewEmployeeButton" Content="Добавить сотрудника" Grid.Row="1" Click="AddNewEmployeeButton_Click"/>
             <Button Style="{DynamicResource MainButton}" x:Name="QuitButton" Content="Выйти из системы" Grid.Column="1" Foreground="Red" Click="QuitButton_Click" Grid.Row="2"/>
         </Grid>

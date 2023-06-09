@@ -133,26 +133,6 @@ namespace УППО_Пропуски.Pages
             app.Visible = true;
         }
 
-        private void SendRequestListButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (EmployeesListBox.SelectedItem != null)
-            {
-                SendRequest((Employee)((UserControls.ForemanUserControl)EmployeesListBox.SelectedItem).DataContext);
-            }
-            else
-                Windows.MessageBox.Show("Уведомление", "Выберите сотрудника");
-        }
-
-        private void SendRequestTableButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (EmployeesDataGrid.SelectedItem != null)
-            {
-                SendRequest((Employee)EmployeesDataGrid.SelectedItem);
-            }
-            else
-                Windows.MessageBox.Show("Уведомление", "Выберите сотрудника");
-        }
-
         private void QuitButton_Click(object sender, RoutedEventArgs e)
         {
             Assets.Helpers.FrameManager.Navigate(new Pages.Autorization());
@@ -162,6 +142,29 @@ namespace УППО_Пропуски.Pages
             else if (Employee.Gender == "Ж")
                 App.Context.Logs.Add(new Log(DateTime.Now, $"{Employee.SubdivisionNavigation.Name} {Employee.Name} {Employee.Surname} {Employee.Patronomic} вышла из системы", Employee.Code, null));
             App.Context.SaveChanges();
+        }
+
+        private void SendRequestButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (TabControlMain.SelectedIndex == 0)
+            {
+                if (EmployeesDataGrid.SelectedItem != null)
+                {
+                    SendRequest((Employee)EmployeesDataGrid.SelectedItem);
+                }
+                else
+                    Windows.MessageBox.Show("Уведомление", "Выберите сотрудника");
+            }
+
+            else if (TabControlMain.SelectedIndex == 1)
+            {
+                if (EmployeesListBox.SelectedItem != null)
+                {
+                    SendRequest((Employee)((UserControls.ForemanUserControl)EmployeesListBox.SelectedItem).DataContext);
+                }
+                else
+                    Windows.MessageBox.Show("Уведомление", "Выберите сотрудника");
+            }
         }
     }
 }

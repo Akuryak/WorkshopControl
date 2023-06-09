@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:УППО_Пропуски"
              StartupUri="Windows/MainWindow.xaml"
-    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+            xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     
     <Application.Resources>
         <Style TargetType="TextBlock">
@@ -727,7 +727,7 @@
         </Style>
         
         <ControlTemplate x:Key="MainTextBox" TargetType="{x:Type TextBoxBase}">
-            <Border x:Name="border" BorderBrush="#FF7078FF" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True" Background="#FFCDDCFF" CornerRadius="15" UseLayoutRounding="True">
+            <Border x:Name="border" BorderBrush="#FFCBCDFB" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True" Background="#FFCBCDFB" CornerRadius="20" UseLayoutRounding="True">
                 <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
             </Border>
             <ControlTemplate.Triggers>
@@ -746,7 +746,7 @@
         <SolidColorBrush x:Key="PasswordBox.MouseOver.Border" Color="#FF7EB4EA"/>
         <SolidColorBrush x:Key="PasswordBox.Focus.Border" Color="#FF569DE5"/>
         <ControlTemplate x:Key="MainPasswordBox" TargetType="{x:Type PasswordBox}">
-            <Border x:Name="border" BorderBrush="#FF7078FF" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True" Background="#FFCDDCFF" CornerRadius="15" UseLayoutRounding="True">
+            <Border x:Name="border" BorderBrush="#FFCBCDFB" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True" Background="#FFCBCDFB" CornerRadius="15" UseLayoutRounding="True">
                 <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
             </Border>
             <ControlTemplate.Triggers>

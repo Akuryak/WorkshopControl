@@ -369,3 +369,5 @@ C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.pdb
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\Контроль цехов.genruntimeconfig.cache
 C:\Users\Daunello\Desktop\WorkshopControl\Контроль цехов\obj\Debug\net7.0-windows\ref\Контроль цехов.dll
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.g.cs
+C:\Users\10a\Desktop\WorkshopControl-main\Контроль цехов\obj\Debug\net7.0-windows\Pages\HRChooseActionPage.baml

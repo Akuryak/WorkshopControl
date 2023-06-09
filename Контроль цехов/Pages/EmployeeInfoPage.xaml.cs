@@ -41,14 +41,14 @@ namespace УППО_Пропуски.Pages
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            NameTextBlock.Text += $"{Employee.Surname} {Employee.Name} {Employee.Patronomic}";
-            GenderTextBlock.Text += Employee.Gender;
-            BirthdateTextBlock.Text += Employee.Birthdate.ToShortDateString();
-            WorkshopTextBlock.Text += Employee.WorkshopNavigation.Name;
-            DivisionTextBlock.Text += Employee.SubdivisionNavigation == null ? "-" : Employee.SubdivisionNavigation.Name;
-            StatusTextBlock.Text += Employee.Status;
-            VerificatedTextBlock.Text += Employee.IsVerificated == 1 ? "Да" : "Нет";
-            CanVisitOtherWorkshopsTextBlock.Text += Employee.CanVisitOtherWorkshops == 1 ? "Да" : "Нет";
+            NameTextBlock.Text = $"{Employee.Surname} {Employee.Name} {Employee.Patronomic}";
+            GenderTextBlock.Text = Employee.Gender == "М" ? "Мужчина" : "Женщина";
+            BirthdateTextBlock.Text = Employee.Birthdate.ToShortDateString();
+            WorkshopTextBlock.Text = Employee.WorkshopNavigation.Name;
+            DivisionTextBlock.Text = Employee.SubdivisionNavigation == null ? "Не распределен в подразделение" : Employee.SubdivisionNavigation.Name;
+            StatusTextBlock.Text = Employee.Status;
+            VerificatedTextBlock.Text = Employee.IsVerificated == 1 ? "Подтвержден" : "Не подтвержден";
+            CanVisitOtherWorkshopsTextBlock.Text = Employee.CanVisitOtherWorkshops == 1 ? "Может проходить в другие цеха" : "Не может проходить в другие цеха";
 
             if (Employee.Photo != null)
             {
