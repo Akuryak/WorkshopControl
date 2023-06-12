@@ -133,7 +133,7 @@ namespace УППО_Пропуски.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Контроль цехов;component/pages/employeeinfopage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Контроль цехов;V1.0.0.0;component/pages/employeeinfopage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\EmployeeInfoPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

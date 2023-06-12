@@ -44,7 +44,7 @@ namespace УППО_Пропуски.Pages
             if (Employee.Status.Contains("Уволен"))
             {
                 MessageBox.Show("Вы были уволены и не можете пользоваться системой", "Уведомление");
-                App.Current.Windows.OfType<MainWindow>().FirstOrDefault().Close();
+                Assets.Helpers.FrameManager.Navigate(new Pages.Autorization());
             }
 
             NameTextBlock.Text = $"{Employee.Surname} {Employee.Name} {Employee.Patronomic}";

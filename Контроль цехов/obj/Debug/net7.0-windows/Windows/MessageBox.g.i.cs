@@ -61,7 +61,7 @@ namespace УППО_Пропуски.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Контроль цехов;component/windows/messagebox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Контроль цехов;V1.0.0.0;component/windows/messagebox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\MessageBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
