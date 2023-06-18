@@ -1201,11 +1201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daunello\\Desktop\\WorkshopControl\\Контроль цехов\\Контроль цехов.csproj",
+      "projectUniqueName": "C:\\Users\\Daunello\\source\\repos\\WorkshopControl\\Контроль цехов\\Контроль цехов.csproj",
       "projectName": "Контроль цехов",
-      "projectPath": "C:\\Users\\Daunello\\Desktop\\WorkshopControl\\Контроль цехов\\Контроль цехов.csproj",
+      "projectPath": "C:\\Users\\Daunello\\source\\repos\\WorkshopControl\\Контроль цехов\\Контроль цехов.csproj",
       "packagesPath": "C:\\Users\\Daunello\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daunello\\Desktop\\WorkshopControl\\Контроль цехов\\obj\\",
+      "outputPath": "C:\\Users\\Daunello\\source\\repos\\WorkshopControl\\Контроль цехов\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daunello\\AppData\\Roaming\\NuGet\\NuGet.Config",

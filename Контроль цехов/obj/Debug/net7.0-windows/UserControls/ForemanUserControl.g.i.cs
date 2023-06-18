@@ -117,7 +117,7 @@ namespace УППО_Пропуски.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Контроль цехов;V1.0.0.0;component/usercontrols/foremanusercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Контроль цехов;component/usercontrols/foremanusercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\ForemanUserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

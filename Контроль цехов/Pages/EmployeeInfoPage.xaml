@@ -50,15 +50,17 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Button Style="{DynamicResource MainButton}" BorderBrush="Red" Background="#FFFF8787" HorizontalAlignment="Right" x:Name="QuitButton" ToolTip="Выйти из системы" Grid.Column="2" Click="QuitButton_Click">
                     <Image Source="../Assets/Button Icons/exit.png" Margin="5" MaxWidth="30"/>
                 </Button>
-                <TextBlock x:Name="WorkshopTextBlock" Text="Цех: " Grid.Row="0"/>
-                <TextBlock x:Name="DivisionTextBlock" Text="Подразделение: " Grid.Row="1" Grid.ColumnSpan="2"/>
-                <TextBlock x:Name="StatusTextBlock" Text="Статус: " Grid.Row="2" Grid.ColumnSpan="2"/>
-                <TextBlock x:Name="VerificatedTextBlock" Text="Подтвержден?: " Grid.Row="3" Grid.ColumnSpan="2"/>
-                <TextBlock x:Name="CanVisitOtherWorkshopsTextBlock" Text="Может посещать другие цеха?: " Grid.Row="4" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="CodeTextBlock" Text="Код: " Grid.Row="0"/>
+                <TextBlock x:Name="WorkshopTextBlock" Text="Цех: " Grid.Row="1"/>
+                <TextBlock x:Name="DivisionTextBlock" Text="Подразделение: " Grid.Row="2" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="StatusTextBlock" Text="Статус: " Grid.Row="3" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="VerificatedTextBlock" Text="Подтвержден?: " Grid.Row="4" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="CanVisitOtherWorkshopsTextBlock" Text="Может посещать другие цеха?: " Grid.Row="5" Grid.ColumnSpan="2"/>
             </Grid>
             <Border BorderBrush="#FF6363C1" BorderThickness="2" Margin="5"/>
             <Border BorderBrush="#FF6363C1" BorderThickness="2" Grid.Column="1" Margin="5"/>

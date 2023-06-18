@@ -43,10 +43,11 @@ namespace УППО_Пропуски.Pages
         {
             if (Employee.Status.Contains("Уволен"))
             {
-                MessageBox.Show("Вы были уволены и не можете пользоваться системой", "Уведомление");
+                Windows.MessageBox.Show("Уведомление", "Вы были уволены и не можете пользоваться системой");
                 Assets.Helpers.FrameManager.Navigate(new Pages.Autorization());
             }
 
+            CodeTextBlock.Text = $"Код сотрудника: {Employee.Code}";
             NameTextBlock.Text = $"{Employee.Surname} {Employee.Name} {Employee.Patronomic}";
             GenderTextBlock.Text = Employee.Gender == "М" ? "Мужчина" : "Женщина";
             BirthdateTextBlock.Text = Employee.Birthdate.ToShortDateString();

@@ -42,6 +42,7 @@ namespace УППО_Пропуски.Pages
         {
             EmployeesDataGrid.ItemsSource = App.Context.Employees.ToList();
             DivisionEmployeeComboBox.ItemsSource = App.Context.Divisions.ToList();
+            LogsDataGrid.ItemsSource = App.Context.Logs.ToList();
 
             foreach (Employee employee in App.Context.Employees.ToList())
             {
@@ -123,9 +124,15 @@ namespace УППО_Пропуски.Pages
         {
             List<Employee> employees = App.Context.Employees.ToList();
 
-            if (!string.IsNullOrWhiteSpace(SearchTextBox.Text))
-                employees = employees.Where(x=> $"{x.Surname} {x.Name} {x.Patronomic}".Contains(SearchTextBox.Text)).ToList();
+            List<Log> logs = App.Context.Logs.ToList();
 
+            if (!string.IsNullOrWhiteSpace(SearchTextBox.Text))
+            {
+                employees = employees.Where(x=> $"{x.Surname} {x.Name} {x.Patronomic}".Contains(SearchTextBox.Text)).ToList();
+                logs = logs.Where(x=>x.EmployeeFullName.Contains(SearchTextBox.Text)).ToList();
+            }
+
+            LogsDataGrid.ItemsSource = employees;
             EmployeesDataGrid.ItemsSource = employees;
             EmployeesListBox.Items.Clear();
             foreach (Employee employee in employees)
